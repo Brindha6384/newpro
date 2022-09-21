@@ -1,0 +1,25 @@
+#opp{
+    color: black;
+}
+.container3{
+    font-family: cursive;
+    font-weight: bold;
+    line-height: 10px;
+    word-spacing: 5px;
+
+    background-color: pink;
+    margin-top:-12px ;
+    
+    
+}
+
+.left1{
+    float: right;
+    margin-top: -490px;
+    text-align: center;
+    margin-right: 100px;
+}
+#gom{
+    margin-left:100px;
+    padding-bottom: 50px;
+}

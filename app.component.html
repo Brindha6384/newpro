@@ -1,0 +1,42 @@
+<mat-toolbar>
+  <button mat-icon-button class="example-icon" >
+    <mat-icon (click)="sidenav.toggle();">shopping_cart</mat-icon>
+  </button>
+  <span>Daisy Doo</span>
+  
+ <button mat-icon-button class="example-icon1" >
+    <mat-icon>shop</mat-icon></button>
+    <div>
+  <button mat-icon-button class="example-icon2" >
+    <mat-icon>thumb_up_alt</mat-icon>
+  </button>
+</div>
+  
+  </mat-toolbar>
+
+<mat-sidenav-container autosize class="nun">
+  <p id="head1"></p>
+  <mat-sidenav #sidenav mode="side" opened="true">
+    
+    <mat-nav-list style="width: 175px;"><br>
+      <a  mat-list-item [routerLink]="''"><mat-icon>home </mat-icon>Home</a><br>
+      <mat-list-item [routerLink]="'cat'"><mat-icon>invert_colors</mat-icon><span *ngf="isExpanded">Categories</span>Categories</mat-list-item><br>
+      <a mat-list-item [routerLink]="'trend'"><mat-icon> local_florist</mat-icon>Trending Now</a><br>
+      <a mat-list-item [routerLink]="'festiv'"><mat-icon>cake</mat-icon>FestivaL Offers</a><br>
+      <a mat-list-item [routerLink]="'dis'"><mat-icon>sentiment_very_satisfied</mat-icon>Exchange policy</a><br>
+      <a mat-list-item [routerLink]="'menu'"><mat-icon>thumbs_up_down</mat-icon>Terms&Conditions</a><br>
+      
+      
+    </mat-nav-list>
+    
+  </mat-sidenav>
+  <router-outlet></router-outlet>
+</mat-sidenav-container>
+
+  <footer>
+    <ul>
+   <li id="lil"> <a   [routerLink]="'cont'" style="color:whitesmoke;" ><mat-icon >dialer_sip</mat-icon>Contact Us</a></li>
+   <li> <a  [routerLink]="'about'" style="color:whitesmoke;"><mat-icon>loyalty</mat-icon>About</a></li>
+   <li><a  [routerLink]="'cont'" style="color:whitesmoke;"><mat-icon>shop</mat-icon>Braches</a></li>
+  </ul>
+</footer>

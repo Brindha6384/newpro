@@ -1,0 +1,27 @@
+.container{
+    text-align: center;
+    margin-top: 80px;
+    background-color: black;
+    color: rgb(177, 22, 130);
+    width: 440px;
+    height: 450px;
+    margin-left:365px;
+    
+}
+
+.container1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+#add1{
+    padding: 13px;
+    text-align: center;
+}
+h3{
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+#mato{
+    height: 50px;
+}

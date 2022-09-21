@@ -1,0 +1,24 @@
+<div style="color:black;" class="container3">
+    <div class="heading">
+      <br> <br><br><br> <h1 style="text-align:center;font-family:'Courier New', Courier, monospace;font-style:italic;font-weight:bold;font-size: 35px;">
+        WELCOME TO DAISY DOO....<mat-icon>favorite</mat-icon></h1>
+        <hr id="opp" style="height:3px;margin-left: 250px;width:600px;">
+       <h1 style="text-align:center;margin-left: -110px;font-family:'Courier New', Courier, monospace;font-style:italic;font-weight:bold;font-size: 35px" >ALL COLLECTIONS OF SAREES </h1>
+    </div><br><br><br><br><br><br><br>
+    <div  *ngFor=" let kd of kidData">
+        <img id="gom" style="width:400px;height:630px;"  src="{{kd.img}}"><br><br><br>
+        <div class="left1">
+         <br><h1 style="font-family: monospace;font-weight:bold;font-size:30px;"name>{{kd.dressname}}</h1><br>
+       
+         <p class="hname"style="font-size:20px;letter-spacing:1px;word-spacing:6px;line-height:25px;">{{kd.dressdetails}}</p>
+         <p class="hname1"style="font-size:20px;letter-spacing:1px;word-spacing:6px;line-height:25px;">{{kd.dressdetails2}}</p>
+         <p class="hname2" style="font-size:20px;letter-spacing:1px;word-spacing:6px;line-height:25px;">{{kd.dressdetails3}}</p>
+         <p class="price" style="font-size:20px;letter-spacing:1px;word-spacing:6px;line-height:25px;">{{kd.price |currency:'INR'}}</p>
+         <a [routerLink]="['/favkid',kd.id]"><button mat-raised-button><mat-icon>favorite</mat-icon></button></a><br><br>
+         <a [routerLink]="['/kdbuynow',kd.id]"><button mat-raised-button>BUY NOW<i class="bi bi-bag-fill"></i></button></a><br><br>
+         <a [routerLink]="'/review'" ><button mat-raised-button>REVIEWS<mat-icon>star_half</mat-icon></button></a><br><br><br><br>
+        </div>
+       
+     </div>
+     <a [routerLink]="'/cat'"><button style="margin-left:850px;margin-bottom: 100px;" mat-raised-button>BACK&nbsp;</button></a>
+</div>

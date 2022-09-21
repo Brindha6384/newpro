@@ -1,0 +1,68 @@
+.container7 img{
+    width:500PX;
+    height:550px;
+    float: right;
+    margin-right: 50px;
+    margin: 50px;
+
+}
+.container7 {
+    height: 650px;
+    width:1050px;
+    margin-left:53px;
+    margin-top: 20px;
+ 
+}
+.container7 .pop{
+    margin-left: 30px;
+    text-align: center;
+   
+    font-weight: bold;
+    
+  
+}
+.container8{
+    background-color:pink;
+    margin-top: -20px;
+   
+}
+
+#oii{
+    float:left;
+    position: absolute;
+    
+    margin-top: -550px;
+   
+    text-align: center;
+  margin-left: 100px;
+    font-family: monospace;
+   padding: 10px;
+   line-height: 45px;
+   font-weight: bold;
+}
+#omm{
+float:right;
+position: absolute;
+color:black;
+margin-top: -430px;
+font-size: 30px;
+text-align: center;
+margin-left: 700px;
+font-family: monospace;
+padding: 10px;
+font-weight: bold;
+line-height: 45px;}
+
+#onn{
+    float:left;
+    position: absolute;
+    
+    margin-top: -550px;
+   
+    text-align: center;
+  margin-left: 60px;
+    font-family: monospace;
+   padding: 10px;
+   line-height: 45px;
+   font-weight: bold;
+}

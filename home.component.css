@@ -1,0 +1,110 @@
+#hunt{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+#img1{
+    height:500px;
+    width:500px;
+    margin-left: 680px;
+}
+#img2{
+    height:500px;
+    width:500px;
+    margin-right: 700px;
+}
+#img3{
+    height:475px;
+    width:500px;
+    margin-left:680px;
+}
+#img5{
+    height:575px;
+    width:455px;
+    margin-right: 700px;
+}
+#quto1{
+    float:right;
+    position: absolute;
+    color:black;
+    margin-top: -350px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 90px;
+    font-family: monospace;
+   padding: 10px;
+   font-weight: bold;
+}
+#quto2{
+    float:left;
+    position: absolute;
+    color:black;
+    margin-top: -380px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 670px;
+    font-family: monospace;
+   padding: 10px;
+   font-weight: bold;
+}
+#quto3{
+    float:right;
+    position: absolute;
+    color:black;
+    margin-top: -350px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 90px;
+    font-family: monospace;
+   padding: 10px;
+   font-weight: bold;
+}
+#img4{
+    width:100px;
+    height: 100px;
+}
+#quto4{
+    float:left;
+    position: absolute;
+    color:black;
+    margin-top: -380px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 600px;
+    font-family: monospace;
+   padding: 10px;
+   font-weight: bold;
+}
+
+.container4{
+    display: flex;
+   
+    min-height: 70vh;
+    position: relative;
+    flex-wrap: wrap;
+    margin-left:20px;
+
+}
+.container4 .box{
+    position: relative;
+    width:400px;
+    height:600px;
+    overflow: hidden;
+    transition: 0.5s;
+margin-right: 6px;
+
+}
+.container4 .box:hover{
+    z-index: 1;
+    transform: scale(1.25);
+   box-shadow: 0 25px 40px black;
+}
+.container4 .box .imgbx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+   
+}
+

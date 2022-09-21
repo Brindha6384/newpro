@@ -1,0 +1,25 @@
+#dod{
+    height: 610px;
+    width:400px;
+    margin-left: 125px;
+    
+    border-style: groove;
+    border-color: black;
+    opacity: 1;
+    transition: all .5s ease-out;
+}
+
+
+   
+
+.container{
+    width:700px;
+    }
+    #para{
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 28px;
+        word-spacing: 5px;
+        letter-spacing: 1px;
+       
+    }

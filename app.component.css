@@ -1,0 +1,28 @@
+.nun{
+    height: 395%;
+
+    background-color: white;
+}
+mat-sidenav{
+    background-color:rgba(0, 0, 0, 0.788);
+}
+
+.example-icon1{
+    margin-left:1080px;
+
+}
+
+footer{
+    background-color:rgb(31, 31, 18); 
+        height: 100px;
+    }
+    footer ul li{
+        display: inline-block;
+        font-size: large;
+        margin-top: 25px;
+        margin-right:20px;
+        } 
+    #lil{
+        margin-left: 970px;
+    }
+    

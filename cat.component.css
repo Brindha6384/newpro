@@ -1,0 +1,78 @@
+.container2{
+  text-align: center;
+  font-weight: bold;
+  margin-top: -12px;
+  width: 102%;
+  height: 100%;
+  margin-left: -12px;
+ 
+  
+ 
+}
+#img{
+
+  margin-right: 650px;
+  border-style: double;
+  border-width: 3px;
+}
+#img1{
+  margin-top: -200px;
+  margin-left: 650px;
+  border-style: double;
+  border-width: 3px;
+}
+#not{
+ float: right;
+ margin-top: -450px;
+ margin-right: 100px;
+}
+#dot{
+  float: left;
+  margin-top: -280px;
+  margin-left: 100px;
+ }
+h2{
+  word-spacing: 5px;
+  font-style:italic;
+ 
+  line-height: 43px;
+  font-size: 35px;
+}
+button{
+  color: black;
+}
+#img2{
+  margin-right: 650px;
+  border-style: double;
+  border-width: 3px;
+  margin-top: -40px;
+}
+  
+#bot{
+  float: right;
+ margin-top: -410px;
+ margin-right: 100px;
+}
+#img3{
+  margin-top: -120px;
+  margin-left: 630px;
+  border-style: double;
+  border-width: 3px;
+}
+#hot{
+  float: left;
+  margin-top: -340px;
+  margin-left: 100px;
+ }
+ #img4{
+  margin-right: 650px;
+  border-style: double;
+  border-width: 3px;
+  margin-top: -130px;
+}
+  
+#got{
+  float: right;
+ margin-top: -350px;
+ margin-right: 100px;
+}

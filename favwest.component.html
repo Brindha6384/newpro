@@ -1,0 +1,27 @@
+<div class="container1 "  style="background-color:rgb(247, 247, 141) ;"><br><br><br>
+    <h1  style="font-family: cursive;font-weight: bold;font-size: 35px;text-align: center;">Your Favourite List....<mat-icon>favorite</mat-icon></h1>
+<br><br><br><br><br>
+    <div class="row">
+
+        <div class="col-lg-6" *ngIf="sabData">
+            
+            <img id="gom" style="width:350px;height:550px;"  src="{{sabData[0].img}}"><br><br><br>
+            <p class="hname"style="font-size:20px;letter-spacing:1px;word-spacing:6px;line-height:25px;">{{sabData[0].dressdetails}}</p>
+            <p class="hname1"style="font-size:20px;letter-spacing:1px;word-spacing:6px;line-height:25px;">{{sabData[0].dressdetails2}}</p>
+            <p class="hname2" style="font-size:20px;letter-spacing:1px;word-spacing:6px;line-height:25px;">{{sabData[0].dressdetails3}}</p>
+            <p class="price" style="font-size:20px;letter-spacing:1px;word-spacing:6px;line-height:25px;">{{sabData[0].price |currency:'INR'}}</p>
+            <a [routerLink]="'/Western'" ><button mat-raised-button>BACK</button></a>
+        </div>
+
+      
+
+        </div> 
+
+
+    </div>
+
+      
+
+
+
+
